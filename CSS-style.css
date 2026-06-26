@@ -1,7 +1,7 @@
 h1 {
     color: red;
-    font-family: Georgia, 'Times new roman', 'Times New Roman', Times, serif;
-    font-size: 80px;
+    font-family: cursive;
+    font-size: 100px;
     background-color: white;
 }
 p{
@@ -22,6 +22,8 @@ body{
 b{
     color: #B22222;
     font-size: 25px;
+     font-family: cursive;
+    font-size: 30px;
 }
 footer{
     background-color:white;
@@ -117,7 +119,7 @@ button{
     line-height: 1.5;
     margin: 10px;
     width: 250px;
-    height: 350px;
+    height: 1550px;
     padding: 15px;
     box-sizing: border-box;
     overflow: hidden;
@@ -136,7 +138,7 @@ button{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 890px;
+    height: 1590px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -210,4 +212,25 @@ form textarea:focus{
     border: 3px solid #285A48;
     outline: none;
     
+}
+.logo{
+    padding: 10px;
+    border: 0;
+    margin-left: 0px;
+
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+}
+.textpie{
+    padding: 70px;
+    margin-right: 90px;
+    align-content: center;
+
+}
+.gif{
+    padding: 10px;
+    border: 50;
+    margin-left: 0px;
 }
